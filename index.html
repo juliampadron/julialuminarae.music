@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Julia Lumina Rae | Ash Wednesday Prototype</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero" id="top">
+      <nav class="nav container">
+        <a class="brand" href="#top">@JuliaLuminaRae</a>
+        <div class="nav-links">
+          <a href="#products">Shop</a>
+          <a href="#subscriptions">Subscriptions</a>
+          <a href="#free-downloads">Free Downloads</a>
+          <a href="#checkout">Checkout Demo</a>
+          <a href="#cancel">Cancel</a>
+        </div>
+      </nav>
+      <div class="container hero-content">
+        <p class="eyebrow">420 Launch • Ash Wednesday EP</p>
+        <h1>Build your own support tier and keep the signal alive.</h1>
+        <p>
+          A responsive, NYS-compliance-focused website prototype for music, merch,
+          subscriptions, and one-click cancellation flow simulation.
+        </p>
+        <a class="btn" href="#products">Explore Store</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="section container" id="products">
+        <h2>Products</h2>
+        <div class="grid cards">
+          <article class="card">
+            <h3>Digital Download: Ash Wednesday EP</h3>
+            <p>Name your price. Minimum is $1.</p>
+            <label for="digitalPrice">Your price (USD)</label>
+            <input type="number" id="digitalPrice" min="1" value="5" />
+            <button class="btn secondary" data-product="digital">Add Digital Download</button>
+          </article>
+
+          <article class="card">
+            <h3>Physical CD</h3>
+            <p>Limited stock: <strong id="cdStock">25</strong> units.</p>
+            <p>Price: $15.00</p>
+            <button class="btn secondary" data-product="cd">Add Physical CD</button>
+          </article>
+
+          <article class="card">
+            <h3>420 Launch Merch</h3>
+            <p>Pick your drop item:</p>
+            <select id="merchItem">
+              <option value="18">420 Tee — $18</option>
+              <option value="12">Sticker Pack — $12</option>
+              <option value="35">Hoodie — $35</option>
+            </select>
+            <button class="btn secondary" data-product="merch">Add Merch</button>
+          </article>
+        </div>
+      </section>
+
+      <section class="section alt" id="subscriptions">
+        <div class="container">
+          <h2>Support Subscriptions</h2>
+          <div class="grid cards three">
+            <article class="card">
+              <h3>Tier 1 — Zine + Stickers</h3>
+              <p>$8/month</p>
+              <button class="btn secondary" data-subscription="tier1" data-price="8">Select Tier 1</button>
+            </article>
+            <article class="card">
+              <h3>Tier 2 — Tier 1 + Monthly Bonus Track</h3>
+              <p>$14/month</p>
+              <button class="btn secondary" data-subscription="tier2" data-price="14">Select Tier 2</button>
+            </article>
+            <article class="card">
+              <h3>Tier 3 — Tier 2 + Quarterly Exclusive Merch</h3>
+              <p>$25/month</p>
+              <button class="btn secondary" data-subscription="tier3" data-price="25">Select Tier 3</button>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section container" id="free-downloads">
+        <h2>Free Downloads</h2>
+        <div class="grid cards">
+          <article class="card">
+            <h3>Exit Signs</h3>
+            <p>Free download by Burt Sucrose.</p>
+            <a class="btn secondary" href="data:text/plain,Exit%20Signs%20demo%20download" download="exit-signs.txt">Download “Exit Signs”</a>
+          </article>
+          <article class="card">
+            <h3>Car Wars</h3>
+            <p>Free download by Amadeus.</p>
+            <a class="btn secondary" href="data:text/plain,Car%20Wars%20demo%20download" download="car-wars.txt">Download “Car Wars”</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section alt" id="checkout">
+        <div class="container split">
+          <div>
+            <h2>Checkout Simulation</h2>
+            <p>Cart total: <strong id="subtotal">$0.00</strong></p>
+            <label for="address">Mock NY shipping city</label>
+            <select id="address">
+              <option value="nyc">New York City (8.875%)</option>
+              <option value="albany">Albany (8.000%)</option>
+              <option value="rochester">Rochester (8.000%)</option>
+            </select>
+
+            <div class="legal-box">
+              <label class="checkbox-row">
+                <input type="checkbox" id="autoRenewConsent" />
+                <span>
+                  I agree to recurring subscription charges, acknowledge the NYS auto-renewal
+                  terms, and understand I can cancel anytime via one-click cancellation in my account.
+                </span>
+              </label>
+            </div>
+
+            <p>Tax: <strong id="taxAmount">$0.00</strong></p>
+            <p>Total: <strong id="totalAmount">$0.00</strong></p>
+            <button id="completeCheckout" class="btn">Complete Mock Checkout</button>
+            <p class="small">Subscriptions require consent checkbox to be checked.</p>
+          </div>
+          <div class="card">
+            <h3>Email Acknowledgment Mock</h3>
+            <pre id="emailPreview">No order yet.</pre>
+          </div>
+        </div>
+      </section>
+
+      <section class="section container" id="cancel">
+        <h2>Click-to-Cancel</h2>
+        <p>Account Area subscription: <strong id="activeSub">None selected</strong></p>
+        <button id="cancelSubscription" class="btn danger">Cancel Subscription in 1 Click</button>
+        <p id="cancelResult" class="small"></p>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <p>Prototype for DMA In Omnia Paratus — For local demo use only.</p>
+      </div>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>

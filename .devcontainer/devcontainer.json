@@ -1,0 +1,24 @@
+{
+  "name": "Julia Lumina Rae Prototype",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:1-20-bullseye",
+  "updateContentCommand": "npm install && npm run build",
+  "postAttachCommand": {
+    "start-server": "npm start"
+  },
+  "forwardPorts": [3000],
+  "portsAttributes": {
+    "3000": {
+      "label": "Julia Lumina Rae Prototype",
+      "onAutoForward": "openPreview"
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "files.exclude": {
+          "node_modules": true
+        }
+      }
+    }
+  }
+}
