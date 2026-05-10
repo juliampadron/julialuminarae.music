@@ -144,7 +144,7 @@ export default function Home() {
             <a href="#singles" className="hover:text-[#ff006e] transition-colors">Singles</a>
             <a href="#about" className="hover:text-[#ff006e] transition-colors">About</a>
             <a href="#support" className="hover:text-[#ff006e] transition-colors">Support</a>
-            <a href="https://youtube.com/julialuminarae" target="_blank" rel="noreferrer" className="hover:text-[#ff006e] transition-colors">YouTube</a>
+            <a href="https://youtube.com/@julialuminarae?si=nUA28NMgm2a3tVeo" target="_blank" rel="noreferrer" className="hover:text-[#ff006e] transition-colors">YouTube</a>
           </div>
         </nav>
 
@@ -273,7 +273,7 @@ export default function Home() {
             <Youtube className="text-[#ff006e]" size={38} />
             <h2 className="mt-8 font-display text-6xl uppercase leading-none text-white">Watch on YouTube</h2>
             <p className="mt-5 leading-8 text-zinc-300">Music videos, behind-the-scenes ritual sessions, lyric breakdowns, and experimental visuals.</p>
-            <a href="https://youtube.com/julialuminarae" target="_blank" rel="noreferrer" className="mt-8 inline-flex items-center gap-3 bg-white px-5 py-4 font-mono text-xs uppercase tracking-[0.22em] text-black transition hover:bg-[#ff006e] hover:text-white">
+            <a href="https://youtube.com/@julialuminarae?si=nUA28NMgm2a3tVeo" target="_blank" rel="noreferrer" className="mt-8 inline-flex items-center gap-3 bg-white px-5 py-4 font-mono text-xs uppercase tracking-[0.22em] text-black transition hover:bg-[#ff006e] hover:text-white">
               Open Channel <ArrowUpRight size={16} />
             </a>
           </div>
@@ -327,7 +327,7 @@ export default function Home() {
             <a href="https://www.instagram.com/thegeminatrix" target="_blank" rel="noreferrer" className="hover:text-[#ff006e]">@thegeminatrix</a>
             <a href="https://www.instagram.com/hudsonvalleymedium" target="_blank" rel="noreferrer" className="hover:text-[#ff006e]">@hudsonvalleymedium</a>
             <a href="https://www.instagram.com/healingcottagecraft" target="_blank" rel="noreferrer" className="hover:text-[#ff006e]">@healingcottagecraft</a>
-            <a href="https://youtube.com/julialuminarae" target="_blank" rel="noreferrer" className="hover:text-[#ff006e]">YouTube</a>
+            <a href="https://youtube.com/@julialuminarae?si=nUA28NMgm2a3tVeo" target="_blank" rel="noreferrer" className="hover:text-[#ff006e]">YouTube</a>
           </div>
         </div>
       </footer>
