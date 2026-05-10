@@ -1,0 +1,56 @@
+--- copied assets ---
+6233AF75-C37D-4646-A233-6882DECCC505.png
+68603066-C89F-4C4A-A6D9-256F1AE5CEB4.png
+IMG_7869.PNG
+Untitled-February22,202616.07.27.jpg
+ija(1).mp3
+malesueño(1).mp3
+orange-juice-spill-(remastered)(3).mp3
+orange-juice-spill-thumbnail-v2.png
+still.-(still-still-still)(1).mp3
+un-hypnotized.mp3
+--- uploaded urls ---
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/julialuminarae_music/6233AF75-C37D-4646-A233-6882DECCC505.png (size: 2737936 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/6233AF75-C37D-4646-A233-6882DECCC505_f0d75ae2.png
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/julialuminarae_music/68603066-C89F-4C4A-A6D9-256F1AE5CEB4.png (size: 3926389 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/68603066-C89F-4C4A-A6D9-256F1AE5CEB4_1027b413.png
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/julialuminarae_music/IMG_7869.PNG (size: 439763 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/IMG_7869_0623e489.PNG
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/julialuminarae_music/Untitled-February22,202616.07.27.jpg (size: 1006601 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/Untitled-February22,202616.07.27_049c5100.jpg
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/julialuminarae_music/ija(1).mp3 (size: 4671678 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/ija(1)_91765832.mp3
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/julialuminarae_music/malesueño(1).mp3 (size: 4656534 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/malesueño(1)_baa46175.mp3
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/julialuminarae_music/orange-juice-spill-(remastered)(3).mp3 (size: 6032214 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/orange-juice-spill-(remastered)(3)_e4cf2baf.mp3
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/julialuminarae_music/orange-juice-spill-thumbnail-v2.png (size: 5295026 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/orange-juice-spill-thumbnail-v2_49a0a0f0.png
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/julialuminarae_music/still.-(still-still-still)(1).mp3 (size: 7206726 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/still.-(still-still-still)(1)_d5e9492a.mp3
+Uploading file (webdev private): /home/ubuntu/webdev-static-assets/julialuminarae_music/un-hypnotized.mp3 (size: 5705812 bytes)
+File uploaded successfully!
+Storage Path: /manus-storage/un-hypnotized_cc39ca47.mp3
+
+========== Upload Summary ==========
+[SUCCESS] /home/ubuntu/webdev-static-assets/julialuminarae_music/6233AF75-C37D-4646-A233-6882DECCC505.png -> /manus-storage/6233AF75-C37D-4646-A233-6882DECCC505_f0d75ae2.png
+[SUCCESS] /home/ubuntu/webdev-static-assets/julialuminarae_music/68603066-C89F-4C4A-A6D9-256F1AE5CEB4.png -> /manus-storage/68603066-C89F-4C4A-A6D9-256F1AE5CEB4_1027b413.png
+[SUCCESS] /home/ubuntu/webdev-static-assets/julialuminarae_music/IMG_7869.PNG -> /manus-storage/IMG_7869_0623e489.PNG
+[SUCCESS] /home/ubuntu/webdev-static-assets/julialuminarae_music/Untitled-February22,202616.07.27.jpg -> /manus-storage/Untitled-February22,202616.07.27_049c5100.jpg
+[SUCCESS] /home/ubuntu/webdev-static-assets/julialuminarae_music/ija(1).mp3 -> /manus-storage/ija(1)_91765832.mp3
+[SUCCESS] /home/ubuntu/webdev-static-assets/julialuminarae_music/malesueño(1).mp3 -> /manus-storage/malesueño(1)_baa46175.mp3
+[SUCCESS] /home/ubuntu/webdev-static-assets/julialuminarae_music/orange-juice-spill-(remastered)(3).mp3 -> /manus-storage/orange-juice-spill-(remastered)(3)_e4cf2baf.mp3
+[SUCCESS] /home/ubuntu/webdev-static-assets/julialuminarae_music/orange-juice-spill-thumbnail-v2.png -> /manus-storage/orange-juice-spill-thumbnail-v2_49a0a0f0.png
+[SUCCESS] /home/ubuntu/webdev-static-assets/julialuminarae_music/still.-(still-still-still)(1).mp3 -> /manus-storage/still.-(still-still-still)(1)_d5e9492a.mp3
+[SUCCESS] /home/ubuntu/webdev-static-assets/julialuminarae_music/un-hypnotized.mp3 -> /manus-storage/un-hypnotized_cc39ca47.mp3
+=====================================
+Total: 10, Success: 10, Failed: 0
